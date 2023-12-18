@@ -1,0 +1,71 @@
+.memberTable {
+    margin: 50px;
+    border: 2px solid #e2dfe2;
+    border-radius: 10px 5px 10px 10px;
+}
+
+.memberTable table {
+    width: 100%; 
+    border-collapse:collapse
+}
+
+.memberTable th {
+    padding: 10px;
+    text-align: left;
+    color: #667085;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.memberTable tr {
+    border-top: 2px solid #e2dfe2;
+}
+
+.memberTable td {
+    padding: 5px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.imgNameContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imgNameContainer p {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: left;
+    margin: 0;
+}
+
+.memberTable img {
+    width: 30px;
+    height: 30px;
+}
+
+.active {
+    color: #218141;
+    background-color: #e7f7eb;
+    max-width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.unactive {
+    color: #ae2217;
+    background-color: #f7eceb;
+    max-width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.createdDate {
+    color: #667085
+}

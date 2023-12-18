@@ -1,0 +1,67 @@
+.addMemberParagraph1 {
+    color: #8f828f;
+    font-size: 16px;
+}
+
+.addMemberParagraph2 {
+    color: #ab9041;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.autoFillFormBtn {
+    width: 470px;
+    height: 35px;
+    color: black;
+    font-weight: 500;
+    border: none;
+}
+
+.addMemberInput {
+    margin-bottom: 5px;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.addMemberLabel {
+    font-size: 11px;
+}
+
+.avatarSetDiv {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 15px;
+}
+
+.choseAvatarParagraph {
+    font-size: 11px;
+    display:flex !important;
+}
+
+.addMemberCancelBtn {
+    width: 250px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.addMemberConfirmBtn {
+    width: 250px;
+    background-color: #f37521;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.avatarImg {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}

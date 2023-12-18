@@ -1,0 +1,60 @@
+.imageDiv {
+    align-items: center !important;
+    display: block;
+}
+
+.avatarImg {
+    width: 125px;
+    height: 125px;
+}
+
+.editMemberLabel {
+    font-size: 11px;
+    display: block;
+}
+
+.editMemberInput {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.editMemberInputInactive {
+    margin-bottom: 5px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin-top: -3px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.editDetailsDiv {
+    background-color: red;
+}
+
+.editMemberIcon {
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.editMemberIconInactive {
+    display: block;
+    margin-left: 20px;
+    color: #e2dfe2;
+}
+
+.editMemberCloseBtn {
+    width: 500px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
